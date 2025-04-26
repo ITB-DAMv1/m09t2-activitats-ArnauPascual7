@@ -4,39 +4,39 @@
 
 ## Exercicis
 
-### 1. Investiga la llibreria System.Diagnostics. Enumera i explica els mùtodes i propietats mùs rellevants o ùtils que trobis.
+### 1. Investiga la llibreria System.Diagnostics. Enumera i explica els mËtodes i propietats mÈs rellevants o ˙tils que trobis.
 
-System.Diagnostics ùs un namespace que proporciona classes que permeten interactuar amb processos del sistema, registrar events i contadors de rendiment.
+System.Diagnostics Ès un namespace que proporciona classes que permeten interactuar amb processos del sistema, registrar events i contadors de rendiment.
 
-La classe **Activity** contù permet veure les operacions que estù realitzant el sistema. Les operacions sùn peticions o crides a diferents sistemes o protocols. Mùtodes i propietats destacades:
-- Current: Per obtenir o establir l'operaciù actual de l'activitat.
-- Events: Per veure tots els events d'una operaciù de l'activitat.
-- OperationName: Per veure el nom de l'operaciù de l'activitat.
+La classe **Activity** contÈ permet veure les operacions que est‡ realitzant el sistema. Les operacions sÛn peticions o crides a diferents sistemes o protocols. MËtodes i propietats destacades:
+- Current: Per obtenir o establir l'operaciÛ actual de l'activitat.
+- Events: Per veure tots els events d'una operaciÛ de l'activitat.
+- OperationName: Per veure el nom de l'operaciÛ de l'activitat.
 - Start(): Per a iniciar una activitat.
 - Stop(): Per a parar una activitat.
 - SetStartTime(DateTime): Per a establir una hora d'inici.
 - AddEvent(ActivityEvent): Permet afegir events a una activitat.
 
-La classe **Debug** proporciona mùtodes per a ajudar a depurar el codi, amb aquesta classe ùs possible imprimir informaciù de depuraciù y comprobar la lùgica sense afectar el rendiment. Mùtodes i propietats destacades:
-- Assert(Boolean): Comprova una condiciù i si ùs falsa mostra un recuadre de missatge d'error en la pila de crides.
-- Fail(String): Permet enviar un missatge d'error i amb Fail(String, String) un missatge d'error una descripciù mùs detallada.
-- WriteLine(String): Escriu un missatge i un salt de lùnea en els ajents de segument de la colùlecciù Listeners, Output Window.
+La classe **Debug** proporciona mËtodes per a ajudar a depurar el codi, amb aquesta classe Ès possible imprimir informaciÛ de depuraciÛ y comprobar la lÛgica sense afectar el rendiment. MËtodes i propietats destacades:
+- Assert(Boolean): Comprova una condiciÛ i si Ès falsa mostra un recuadre de missatge d'error en la pila de crides.
+- Fail(String): Permet enviar un missatge d'error i amb Fail(String, String) un missatge d'error una descripciÛ mÈs detallada.
+- WriteLine(String): Escriu un missatge i un salt de lÌnea en els ajents de segument de la col∑lecciÛ Listeners, Output Window
 
-La classe **FileVersionInfo** permet veure les versions dels arxius executables. Mùtodes i propietats destacades:
+La classe **FileVersionInfo** permet veure les versions dels arxius executables. MËtodes i propietats destacades:
 - CompanyName: Per obtenir el nom de la companyia que ha creat el fitxer.
-- FileVersion: Per obtenir la versiù.
-- GetVersionInfo(String): Per a obtenir la versiù del fitxer en format FileVersion.
+- FileVersion: Per obtenir la versiÛ.
+- GetVersionInfo(String): Per a obtenir la versiÛ del fitxer en format FileVersion.
 
-La classe **Trace** proporciona mùtodes i propietats per realitzar un seguiment de la excuciù del codi. Mùtodes i propietats destacades:
-- Indent(): Aumenta el nivell de sangrùa (nivell de sangrùa = tabulacions).
-- Unindent(): Disminueix el nivell de sangrùa.
-- TraceError(String): Escriu un missatge d'error en els ajents de seguiment de la colùlecciù Listeners.
-- TraceWarning(String): Escriu un missatge d'advertencia en els ajents de seguiment de la colùlecciù Listeners.
-- WriteLine(Object): Escriu un missatge i un salt de lùnea en els ajents de segument de la colùlecciù Listeners.
+La classe **Trace** proporciona mËtodes i propietats per realitzar un seguiment de la excuciÛ del codi. MËtodes i propietats destacades:
+- Indent(): Aumenta el nivell de sangrÌa (nivell de sangrÌa = tabulacions).
+- Unindent(): Disminueix el nivell de sangrÌa.
+- TraceError(String): Escriu un missatge d'error en els ajents de seguiment de la col∑lecciÛ Listeners.
+- TraceWarning(String): Escriu un missatge d'advertencia en els ajents de seguiment de la col∑lecciÛ Listeners.
+- WriteLine(Object): Escriu un missatge i un salt de lÌnea en els ajents de segument de la col∑lecciÛ Listeners.
 
-### 2. Realitza un programa que imprimeixi per pantalla tots el nom i el PID (Process ID) que estan en execuciù de la mùquina que estùs fent servir. Guarda aquesta llista en un arxiu de text.
+### 2. Realitza un programa que imprimeixi per pantalla tots el nom i el PID (Process ID) que estan en execuciÛ de la m‡quina que est‡s fent servir. Guarda aquesta llista en un arxiu de text.
 
-Exercici en el Projecte Ex2 de la soluciù.
+Exercici en el Projecte Ex2 de la soluciÛ.
 
 ```
 public static void Main(string[] args)
